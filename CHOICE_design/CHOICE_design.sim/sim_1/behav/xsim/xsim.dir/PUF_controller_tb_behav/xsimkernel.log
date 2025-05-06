@@ -1,0 +1,7 @@
+Running: xsim.dir/PUF_controller_tb_behav/xsimk.exe -simmode gui -wdb PUF_controller_tb_behav.wdb -simrunnum 0 -socket 49391
+Design successfully loaded
+Design Loading Memory Usage: 9120 KB (Peak: 9120 KB)
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 9916 KB (Peak: 9916 KB)
+Simulation CPU Usage: 186 ms

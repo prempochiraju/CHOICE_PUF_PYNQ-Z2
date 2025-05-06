@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_sim/PUF_controller_tb.vhd,1746209925,vhdl,,,,puf_controller_tb,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/CHOICE_PUF.vhd,1746209925,vhdl,,,,choice_puf,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/CHOICE_PUF_gen.vhd,1746209925,vhdl,,,,choice_puf_gen,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd,1746209925,vhdl,,,,puf_controller,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/pattern_ctrl_unit.vhd,1746209925,vhdl,,,,pattern_ctrl_unit,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/request_ctrl_unit.vhd,1746209925,vhdl,,,,request_ctrl_unit,,,,,,,,
+C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/tune_ctrl_unit.vhd,1746209925,vhdl,,,,tune_ctrl_unit,,,,,,,,

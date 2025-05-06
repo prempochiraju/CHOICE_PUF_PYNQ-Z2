@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May  3 21:32:28 2025
+# Process ID: 9004
+# Current directory: C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.runs/design_1_PUF_controller_0_0_synth_1
+# Command line: vivado.exe -log design_1_PUF_controller_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_PUF_controller_0_0.tcl
+# Log file: C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.runs/design_1_PUF_controller_0_0_synth_1/design_1_PUF_controller_0_0.vds
+# Journal file: C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.runs/design_1_PUF_controller_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_PUF_controller_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.238 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx1/Vivado/2020.1/data/ip'.
+Command: synth_design -top design_1_PUF_controller_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+WARNING: [IP_Flow 19-3571] IP 'design_1_PUF_controller_0_0' is restricted:
+* Module reference is stale and needs refreshing.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27500
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.238 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_PUF_controller_0_0' [c:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.srcs/sources_1/bd/design_1/ip/design_1_PUF_controller_0_0/synth/design_1_PUF_controller_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'PUF_controller' declared at 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:7' bound to instance 'U0' of component 'PUF_controller' [c:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.srcs/sources_1/bd/design_1/ip/design_1_PUF_controller_0_0/synth/design_1_PUF_controller_0_0.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'PUF_controller' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:24]
+INFO: [Synth 8-3491] module 'request_ctrl_unit' declared at 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/request_ctrl_unit.vhd:5' bound to instance 'req_ctrl_unit_i' of component 'request_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'request_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/request_ctrl_unit.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'request_ctrl_unit' (1#1) [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/request_ctrl_unit.vhd:23]
+INFO: [Synth 8-3491] module 'pattern_ctrl_unit' declared at 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/pattern_ctrl_unit.vhd:5' bound to instance 'pattern_ctrl_unit_i' of component 'pattern_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'pattern_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/pattern_ctrl_unit.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'pattern_ctrl_unit' (2#1) [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/pattern_ctrl_unit.vhd:21]
+INFO: [Synth 8-3491] module 'tune_ctrl_unit' declared at 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/tune_ctrl_unit.vhd:5' bound to instance 'tune_ctrl_unit_i' of component 'tune_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'tune_ctrl_unit' [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/tune_ctrl_unit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'tune_ctrl_unit' (3#1) [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/tune_ctrl_unit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'PUF_controller' (4#1) [C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'design_1_PUF_controller_0_0' (5#1) [c:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.srcs/sources_1/bd/design_1/ip/design_1_PUF_controller_0_0/synth/design_1_PUF_controller_0_0.vhd:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1017.238 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1017.238 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1017.238 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1017.238 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1087.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1087.895 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'request_ctrl_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pattern_ctrl_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              000 |                              000
+                      s1 |                              001 |                              001
+                      s2 |                              010 |                              010
+                      s3 |                              011 |                              011
+                      s4 |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'request_ctrl_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              001 |                               00
+                      s1 |                              010 |                               01
+                      s2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'pattern_ctrl_unit'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               20 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   3 Input    4 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.895 ; gain = 70.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     9|
+|2     |LUT3  |     3|
+|3     |LUT4  |    11|
+|4     |LUT5  |     8|
+|5     |LUT6  |    62|
+|6     |MUXF7 |     8|
+|7     |FDRE  |   125|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1099.340 ; gain = 11.445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1099.340 ; gain = 82.102
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1109.137 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1110.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 1110.121 ; gain = 92.883
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.runs/design_1_PUF_controller_0_0_synth_1/design_1_PUF_controller_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/CHOICE_design/CHOICE_design.runs/design_1_PUF_controller_0_0_synth_1/design_1_PUF_controller_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_PUF_controller_0_0_utilization_synth.rpt -pb design_1_PUF_controller_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  3 21:33:50 2025...
