@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/CHOICE_PUF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CHOICE_PUF'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/CHOICE_PUF_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CHOICE_PUF_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/PUF_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PUF_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/pattern_ctrl_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pattern_ctrl_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/request_ctrl_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'request_ctrl_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_src/hdl/tune_ctrl_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tune_ctrl_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ppochiraju2024/Desktop/CHOICE-PUF/hw_sim/PUF_controller_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PUF_controller_tb'
