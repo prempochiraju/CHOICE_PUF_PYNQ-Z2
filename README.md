@@ -1,4 +1,4 @@
-# CHOICE_PUF_PYNQ-Z2
+# CHOICE_PUF_PYNQ-Z2 (New)
 
 This repository contains the implementation and evaluation of the CHOICE Physical Unclonable Function (PUF) on the PYNQ-Z2 FPGA platform.
 
